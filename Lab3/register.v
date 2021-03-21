@@ -13,7 +13,38 @@ module register(q, d, clk, enable, reset);
     input  clk, enable, reset;
 
    //  Your implementation goes here
-
+    dffe dffe0(q[0], d[0], clk, enable, reset);
+    dffe dffe1(q[1], d[1], clk, enable, reset);
+    dffe dffe2(q[2], d[2], clk, enable, reset);
+    dffe dffe3(q[3], d[3], clk, enable, reset);
+    dffe dffe4(q[4], d[4], clk, enable, reset);
+    dffe dffe5(q[5], d[5], clk, enable, reset);
+    dffe dffe6(q[6], d[6], clk, enable, reset);
+    dffe dffe7(q[7], d[7], clk, enable, reset);
+    dffe dffe8(q[8], d[8], clk, enable, reset);
+    dffe dffe9(q[9], d[9], clk, enable, reset);
+    dffe dffe10(q[10], d[10], clk, enable, reset);
+    dffe dffe11(q[11], d[11], clk, enable, reset);
+    dffe dffe12(q[12], d[12], clk, enable, reset);
+    dffe dffe13(q[13], d[13], clk, enable, reset);
+    dffe dffe14(q[14], d[14], clk, enable, reset);
+    dffe dffe15(q[15], d[15], clk, enable, reset);
+    dffe dffe16(q[16], d[16], clk, enable, reset);
+    dffe dffe17(q[17], d[17], clk, enable, reset);
+    dffe dffe18(q[18], d[18], clk, enable, reset);
+    dffe dffe19(q[19], d[19], clk, enable, reset);
+    dffe dffe20(q[20], d[20], clk, enable, reset);
+    dffe dffe21(q[21], d[21], clk, enable, reset);
+    dffe dffe22(q[22], d[22], clk, enable, reset);
+    dffe dffe23(q[23], d[23], clk, enable, reset);
+    dffe dffe24(q[24], d[24], clk, enable, reset);
+    dffe dffe25(q[25], d[25], clk, enable, reset);
+    dffe dffe26(q[26], d[26], clk, enable, reset);
+    dffe dffe27(q[27], d[27], clk, enable, reset);
+    dffe dffe28(q[28], d[28], clk, enable, reset);
+    dffe dffe29(q[29], d[29], clk, enable, reset);
+    dffe dffe30(q[30], d[30], clk, enable, reset);
+    dffe dffe31(q[31], d[31], clk, enable, reset);
 endmodule // register
 
 

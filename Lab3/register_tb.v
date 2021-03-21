@@ -23,7 +23,16 @@ module test;
           d = 89;
 
         // Add your own testcases here!
-
+        # 10
+        reset = 1;
+        enable = 1;
+        d = 1;
+        # 10
+        reset = 0;
+        # 10
+        reset = 1;
+        enable = 1;
+        d = 2;
         # 700 $finish;
     end
     

@@ -24,5 +24,9 @@ module alu1(out, carryout, A, B, carryin, control);
     input [2:0] control;
 
     // add code here!!!
-
+    wire        b, w1, w2;
+    xor x1(b, B, control[0]);
+    full_adder fa1(w1, carryout, A, b, carryin);
+    logicunit lu1(w2, A, B, control[1:0]);
+    mux2 m2_1(out, w1, w2, control[2]);
 endmodule // alu1
